@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joel Rojas - Desarrollador Full Stack</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto py-6 px-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Joel Rojas</h1>
+      <nav class="space-x-4">
+        <a href="#proyectos" class="text-blue-600 hover:underline">Proyectos</a>
+        <a href="#habilidades" class="text-blue-600 hover:underline">Habilidades</a>
+        <a href="#contacto" class="text-blue-600 hover:underline">Contacto</a>
+        <a href="/cv-joel-rojas.pdf" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Descargar CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-10">
+    <section class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">Sobre mí</h2>
+      <p class="text-lg leading-relaxed">
+        Soy Joel Rojas, desarrollador de software Full Stack especializado en la creación de aplicaciones web completas desde cero. Tengo experiencia en el desarrollo de sistemas backend con .NET Core, manejo de bases de datos SQL Server y creación de interfaces modernas con Vue.js y Bootstrap o Tailwind CSS. He trabajado en proyectos como un CRM para gimnasios y una plataforma de reservas para una empresa de renta de autos.
+      </p>
+    </section>
+
+    <section id="proyectos" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Proyectos</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded shadow p-4">
+          <img src="./img/GYM CRM.png" alt="CRM Gym" class="mb-4 rounded">
+          <h3 class="text-xl font-semibold mb-2">CRM para Gimnasio</h3>
+          <p class="mb-2">Sistema de control de membresías, historial de pagos, visitas y gestión de productos y usuarios.</p>
+          <p class="text-sm text-gray-600">Tecnologías: .NET Core, Vue.js, SQL Server, Tailwind CSS</p>
+        </div>
+
+        <div class="bg-white rounded shadow p-4">
+          <img src="./img/WEB RT.png" alt="Rentacar" class="mb-4 rounded">
+          <h3 class="text-xl font-semibold mb-2">Sitio Web Rentacar</h3>
+          <p class="mb-2">Plataforma de reservas de vehículos con selector de fechas, categorías y localización en múltiples idiomas.</p>
+          <p class="text-sm text-gray-600">Tecnologías: .NET Core, Vue.js, Bootstrap, SQL Server</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">Habilidades Técnicas</h2>
+      <ul class="list-disc list-inside grid grid-cols-2 md:grid-cols-3 gap-y-2">
+        <li>.NET Core</li>
+        <li>SQL Server</li>
+        <li>Vue.js</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>Tailwind CSS</li>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Flutter</li>
+        <li>IONIC</li>
+        <li>APIS</li>
+        <li>ORACLE</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">Contacto</h2>
+      <p class="mb-2">📧 <a href="mailto:joelrojas@bytelabco.onmicrosoft.com" class="text-blue-600 hover:underline">joelrojas@bytelabco.onmicrosoft.com</a></p>
+      <p class="mb-2">📞 <a href="tel:+50670899855" class="text-blue-600 hover:underline">+506 7089 9855</a></p>
+      <p class="mb-2">🔗 <a href="https://www.linkedin.com/in/joel-rojas-ramirez-144752168/" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer class="bg-white shadow py-4 text-center text-sm">
+    © 2025 Joel Rojas. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
