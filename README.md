@@ -28,7 +28,7 @@ Puedes ver el portafolio online en:
 
 - GitHub: [@jrorez96](https://github.com/jrorez96)
 - Email: jrorez96@gmail.com/joelrojas@bytelabco.onmicrosoft.com
-- Telefono: +506 87573486/ +506 70899855
+- Telefono: +506 87572386 / +506 70899855
 
 ---
 
